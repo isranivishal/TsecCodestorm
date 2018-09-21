@@ -1,0 +1,75 @@
+<!Doctype HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+    </head>
+
+    <body>
+        <header id="myCarousel" class="carousel slide"> 
+    <!-- Indicators --> 
+    <ol class="carousel-indicators"> 
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li> 
+        <li data-target="#myCarousel" data-slide-to="1"></li> 
+        <li data-target="#myCarousel" data-slide-to="2"></li> 
+        <li data-target="#myCarousel" data-slide-to="3"></li> 
+         
+    </ol> 
+ 
+    <!-- Wrapper for Slides --> 
+    <div class="carousel-inner"> 
+        <div class="item active"> 
+            <!-- Set the first background image using inline CSS below. --> 
+            <img src="university1.jpeg" style="width:100%; height:250px;"> 
+             
+        </div> 
+        <div class="item"> 
+            <!-- Set the second background image using inline CSS below. --> 
+            <img src="university2.jpeg" style="width:100%; height:450px;"> 
+        </div> 
+        <div class="item"> 
+            <!-- Set the third background image using inline CSS below. --> 
+            <img src="university3.jpeg" style="width:100%; height:450px;"> 
+        </div> 
+ 
+        <div class="item"> 
+            <!-- Set the third background image using inline CSS below. --> 
+            <img src="university4.jpeg" style="width:100%; height:450px;"> 
+        </div> 
+    </div> 
+ 
+    <!-- Controls --> 
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"> 
+        <span class="icon-prev"></span> 
+    </a> 
+    <a class="right carousel-control" href="#myCarousel" data-slide="next"> 
+        <span class="icon-next"></span> 
+    </a> 
+ 
+</header><style> 
+    button{ 
+        padding:0px; 
+        margin:0px; 
+        background:none; 
+        border:none; 
+    } 
+    button:focus {outline:0;} 
+</style> 
+<script> 
+$(document).ready(function(){ 
+    $("#post").click(function(){ 
+        $("#box").load("post.php"); 
+    }); 
+  $("#profile").click(function(){ 
+        $("#box").load("profile.php"); 
+    }); 
+}); 
+</script> 
+ 
+    </body>
+</html>

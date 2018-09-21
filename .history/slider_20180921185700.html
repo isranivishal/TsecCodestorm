@@ -10,7 +10,7 @@
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         <style>
-            @media (min-width: 768px) {
+                        @media (min-width: 768px) {
 
             /* show 3 items */
             .carousel-inner .active,
@@ -88,54 +88,49 @@
             #profile-grid .thumbnail {margin-bottom:6px;}
             #profile-grid .panel-thumbnail { overflow: hidden; }
             #profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
-
-            body .carousel-control-prev-icon,
-            body .carousel-control-next-icon{
-            background-color:red;
-            }
         </style>
         <script>
             $('#carouselExample').on('slide.bs.carousel', function (e) {
 
   
-            var $e = $(e.relatedTarget);
-            var idx = $e.index();
-            var itemsPerSlide = 4;
-            var totalItems = $('.carousel-item').length;
+var $e = $(e.relatedTarget);
+var idx = $e.index();
+var itemsPerSlide = 4;
+var totalItems = $('.carousel-item').length;
 
-            if (idx >= totalItems-(itemsPerSlide-1)) {
-                var it = itemsPerSlide - (totalItems - idx);
-                for (var i=0; i<it; i++) {
-                    // append slides to end
-                    if (e.direction=="left") {
-                        $('.carousel-item').eq(i).appendTo('.carousel-inner');
-                    }
-                    else {
-                        $('.carousel-item').eq(0).appendTo('.carousel-inner');
-                    }
-                }
-            }
-            });
-
-
-            $('#carouselExample').carousel({ 
-                        interval: 2000
-            });
+if (idx >= totalItems-(itemsPerSlide-1)) {
+    var it = itemsPerSlide - (totalItems - idx);
+    for (var i=0; i<it; i++) {
+        // append slides to end
+        if (e.direction=="left") {
+            $('.carousel-item').eq(i).appendTo('.carousel-inner');
+        }
+        else {
+            $('.carousel-item').eq(0).appendTo('.carousel-inner');
+        }
+    }
+}
+});
 
 
-            $(document).ready(function() {
-            /* show lightbox when clicking a thumbnail */
-            $('a.thumb').click(function(event){
-            event.preventDefault();
-            var content = $('.modal-body');
-            content.empty();
-                var title = $(this).attr("title");
-                $('.modal-title').html(title);        
-                content.html($(this).html());
-                $(".modal-profile").modal({show:true});
-            });
+$('#carouselExample').carousel({ 
+            interval: 2000
+    });
 
-            });
+
+$(document).ready(function() {
+/* show lightbox when clicking a thumbnail */
+$('a.thumb').click(function(event){
+  event.preventDefault();
+  var content = $('.modal-body');
+  content.empty();
+    var title = $(this).attr("title");
+    $('.modal-title').html(title);        
+    content.html($(this).html());
+    $(".modal-profile").modal({show:true});
+});
+
+});
         </script>
     </head>
 
@@ -147,7 +142,7 @@
                                <div class="panel panel-default">
                                   <div class="panel-thumbnail">
                                     <a href="#" title="image 1" class="thumb">
-                                      <img class="img-fluid mx-auto d-block" src="education.jpg" alt="slide 1">
+                                      <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=1" alt="slide 1">
                                     </a>
                                   </div>
                                 </div>
@@ -156,7 +151,7 @@
                                <div class="panel panel-default">
                                   <div class="panel-thumbnail">
                                     <a href="#" title="image 3" class="thumb">
-                                     <img class="img-fluid mx-auto d-block" src="education.jpg" alt="slide 2">
+                                     <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=2" alt="slide 2">
                                     </a>
                                   </div>
                                 </div>
@@ -165,7 +160,7 @@
                                <div class="panel panel-default">
                                   <div class="panel-thumbnail">
                                     <a href="#" title="image 4" class="thumb">
-                                     <img class="img-fluid mx-auto d-block" src="education.jpg" alt="slide 3">
+                                     <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=3" alt="slide 3">
                                     </a>
                                   </div>
                                 </div>
@@ -174,7 +169,7 @@
                                 <div class="panel panel-default">
                                   <div class="panel-thumbnail">
                                     <a href="#" title="image 5" class="thumb">
-                                     <img class="img-fluid mx-auto d-block" src="education.jpg" alt="slide 4">
+                                     <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=4" alt="slide 4">
                                     </a>
                                   </div>
                                 </div>
@@ -183,7 +178,7 @@
                               <div class="panel panel-default">
                                   <div class="panel-thumbnail">
                                     <a href="#" title="image 6" class="thumb">
-                                      <img class="img-fluid mx-auto d-block" src="education.jpg" alt="slide 5">
+                                      <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=5" alt="slide 5">
                                     </a>
                                   </div>
                                 </div>
@@ -192,7 +187,7 @@
                                <div class="panel panel-default">
                                   <div class="panel-thumbnail">
                                     <a href="#" title="image 7" class="thumb">
-                                      <img class="img-fluid mx-auto d-block" src="education.jpg" alt="slide 6">
+                                      <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=6" alt="slide 6">
                                     </a>
                                   </div>
                                 </div>
@@ -201,7 +196,7 @@
                                <div class="panel panel-default">
                                   <div class="panel-thumbnail">
                                     <a href="#" title="image 8" class="thumb">
-                                      <img class="img-fluid mx-auto d-block" src="education.jpg" alt="slide 7">
+                                      <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=7" alt="slide 7">
                                     </a>
                                   </div>
                                 </div>
@@ -210,7 +205,7 @@
                                 <div class="panel panel-default">
                                   <div class="panel-thumbnail">
                                     <a href="#" title="image 2" class="thumb">
-                                     <img class="img-fluid mx-auto d-block" src="education.jpg" alt="slide 8">
+                                     <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=8" alt="slide 8">
                                     </a>
                                   </div>
                                   

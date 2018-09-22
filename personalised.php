@@ -396,9 +396,32 @@ document.getElementById("mySidenav").style.width = "0";
 <div class="col-md-4">
 <h3 align="center">Eligible Schemes</h3>
 <div class="alert alert-dismissible alert-success">
-  <a href="#" class="alert-heading">Name</a>
-  <b><p class="mb-0" style="color:black;">Description</p></b>
+  <a href="#" class="alert-heading">Name: Horticulture for Post Harvest Management Projects for farmers</a>
+  <b><p>Description: Department of Animal Husbandry, Dairying and Fisheries is implementing a centrally sponsored fodder development scheme to supplement the efforts of states in feed and fodder development.
+The scheme was modified in 2010 to ensure efficient use of available fodder/feed. With an outlay of Rs.141.40 crore, this scheme incorporates the following new components/technology interventions:
+To strengthen of feed testing laboratories
+Introduction of chaff cutters
+To establish silage making units
+To demonstration ofAzolla cultivation and production units
+To establish by-pass protein production units
+To establish Area Specific Mineral Mixture (ASMM)/feed pelleting/feed manufacturing units
+</p></b>
 </div>
+
+<div class="alert alert-dismissible alert-success">
+  <a href="http://mhrd.gov.in/mahila-samakhya-programme"  target="_blank" class="alert-heading">Name: Mahila Samakhya Programme</a>
+  <b><p>This scheme is to provide education for women’s equality is initiated the Government of India in 1989.This programme for the education and empowerment of women in rural areas, particularly of women from socially and economically marginalised groups.It aims to make women aware, empowered, capable and self-reliant. Mahila Samakhya has been particularly successful in targeting out-of-school girls by working with the community to create learning opportunities in alternative centres, residential camps and early childhood development centres. The programme has been supported by State government, UNICEF, World Bank and others.This programme for the education and empowerment of women in rural areas, particularly of women from socially and economically marginalised groups.
+</p></b>
+</div>
+
+<div class="alert alert-dismissible alert-success">
+  <a href="#" class="alert-heading">Name: Fodder and Feed Development for Farmers, dairy cooperatives, NGOs etc.</a>
+  <b><p>Description: This scheme includes the integrated post-harvest management projects: e.g., pack house, ripening chamber, refer van, retail outlets, pre-cooling units, primary processing, etc.
+Rs.145 lakh per project: The add-on components of pre-cooling, pack house, grading, packing, cold room can be taken up as individual components.
+</p></b>
+</div>
+
+
 </div>
 <div class="col-md-1"></div>
 <div class="col-md-4">

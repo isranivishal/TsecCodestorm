@@ -333,7 +333,7 @@ function closeNav() {
         <li class="active"><a href="index.php">Home</a></li> 
         <li><a href="#">Services</a></li> 
         <li><a href="#">About Us</a></li>   
-        <li><a href="#" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-user"></span> Profile</a></li> 
+        <li><a href="user_profile.php" data-target="#myModal2"><span class="glyphicon glyphicon-user"></span> Profile</a></li> 
         <li><a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-out"></span> LogOut</a></li> 
       </ul> 
     </div> 
@@ -357,7 +357,7 @@ function closeNav() {
 <a href="Upload_documents.php">Upload Documents</a> 
 <a href="University_search.php">Apply Now</a> 
 <a href="application_status.php">Application Status</a> 
-<a href="profile.php">Your Profile</a> 
+<a href="user_profile.php">Your Profile</a> 
 </div> 
 
 

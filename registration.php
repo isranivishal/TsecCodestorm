@@ -7,7 +7,7 @@
 <body>
 	<?php 
 
-		$con =mysqli_connect("localhost","root","qweasdzxc","tseccodestorm") or die(mysqli_error($con));
+		$con =mysqli_connect("localhost","root","mysql","tseccodestorm") or die(mysqli_error($con));
 		$fname=$_POST['FirstName'];
 		$mname=$_POST['MiddleName'];
 		$lname=$_POST['LastName'];
@@ -24,7 +24,6 @@
 		$occupation=$_POST['Occupation'];
 
 		$query = "INSERT INTO user (First_Name,Middle_Name,Last_Name,Email,Phone,Password,Address,State,Age,Income,Caste,Religion,Gender,Occupation) VALUES ('$fname', '$mname','$lname','$email','$contact','$pwd','$caddress','$state','$age','$income','$caste', '$religion','$gender','$occupation')";
-		mysqli_query($con, $query);
 
 		if (mysqli_query($con, $query)) {
 			header("location:personalised.php");

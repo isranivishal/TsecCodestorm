@@ -1,5 +1,5 @@
 <?php 
-    $con =mysqli_connect("localhost","root","qweasdzxc","tseccodestorm") or die(mysqli_error($con));
+    $con =mysqli_connect("localhost","root","mysql","tseccodestorm") or die(mysqli_error($con));
      
 	$email = $_POST['User_Email'];
 	$password = $_POST['User_Password'];

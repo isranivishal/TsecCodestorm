@@ -1,14 +1,3 @@
-<!--<?php
-include('login_submit.php');
-include('student_details.php');
-?>
-<?php
-session_start();
-if(isset($_SESSION['User_Email'])){
-header("location:index.html");
-}
-?>
--->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -234,7 +223,6 @@ header("location:index.html");
         .img {
             width: 100%;
             height: 300px;
-            opacity: 0.5;
         }
         
         @media screen and (max-height: 450px) {
@@ -427,9 +415,8 @@ header("location:index.html");
     
     <div class="container">
         <!-- UNIVERSITY SEARCH ENDS-->
-        <div class="containerimg img" style="background-image: edu.jpg">
-            <img class="img" src="edu.jpg">
-            <h1 class="center">Mahila Samakhya Programme</h1>
+        <div class="containerimg img" style="background-image: URL('img/edu.jpg')">
+            <h1 class="center" style="color: black">Mahila Samakhya Programme</h1>
         </div>
         
         

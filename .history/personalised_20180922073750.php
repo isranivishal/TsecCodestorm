@@ -325,12 +325,12 @@ function closeNav() {
 <!-- side bar ends--> 
 </div> 
 <span style="font-size:30px;cursor:pointer;color:white; padding-left:3px; float:left;" onclick="openNav()">&#9776;</span> 
-    <a class="navbar-brand" href="index.php" style="padding-left:50px;color:white;">Scheme Portal</a> 
+    <a class="navbar-brand" href="index.blade.php" style="padding-left:50px;color:white;">Scheme Portal</a> 
     </div> 
      
       <ul class="nav navbar-nav navbar-right"> 
  
-        <li class="active"><a href="index.php">Home</a></li> 
+        <li class="active"><a href="index.blade.php">Home</a></li> 
         <li><a href="#">Services</a></li> 
         <li><a href="#">About Us</a></li>   
         <li><a href="#" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-user"></span> Profile</a></li> 
@@ -396,11 +396,15 @@ document.getElementById("mySidenav").style.width = "0";
 <div class="col-md-6">
 <h3 align="center">Eligible Schemes</h3>
 <div class="alert alert-dismissible alert-success">
-  <a href="#" class="alert-heading">Name</a>
-  <b><p class="mb-0" style="color:black;">Description</p></b>
   
+  <h4 class="alert-heading">Warning!</h4>
+  <p class="mb-0">Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
 </div>
 </div>
 
+
+
+
 </body>
-</html>
+ 
+ 

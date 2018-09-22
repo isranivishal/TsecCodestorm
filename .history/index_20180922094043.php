@@ -989,14 +989,14 @@ function filterFunction() {
                                             <label for="firstname">Income</label> 
                                             <div class="input-group pb-modalreglog-input-group"> 
                                                 <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span> 
-                                                <input type="text" class="form-control" id="PhoneNo" name="Income" placeholder="Income." required > 
+                                                <input type="text" class="form-control" id="PhoneNo" name="income" placeholder="Income." required > 
                                             </div> 
                                         </div> 
                                         <div class="form-group"> 
                                             <label for="firstname">Occupation</label> 
                                             <div class="input-group pb-modalreglog-input-group"> 
                                                 <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span> 
-                                                <input type="text" class="form-control" id="PhoneNo" name="Occupation" placeholder="Occupation." required > 
+                                                <input type="text" class="form-control" id="PhoneNo" name="PhoneNo" placeholder="Occupation." required > 
                                             </div> 
                                         </div> 
                                       </div> 

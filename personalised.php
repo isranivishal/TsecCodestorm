@@ -392,15 +392,48 @@ document.getElementById("mySidenav").style.width = "0";
 
 <!-- side bar ends--> 
 
-
-<div class="col-md-6">
+<div class="col-md-1"></div>
+<div class="col-md-4">
 <h3 align="center">Eligible Schemes</h3>
 <div class="alert alert-dismissible alert-success">
   <a href="#" class="alert-heading">Name</a>
   <b><p class="mb-0" style="color:black;">Description</p></b>
-  
 </div>
 </div>
+<div class="col-md-1"></div>
+<div class="col-md-4">
+<h3 align="center">Schemes according to Categories</h3>
+<ul class="list-group">
+      <a href="#" class="list-group-item">
+      <h4 class="list-group-item-heading">Education <span class="badge" style="float:right;" >5</span></h4>
+      <p class="list-group-item-text">Central Government <span class="badge">3</span></p>
+      <p class="list-group-item-text">State Government <span class="badge">2</span></p><br>
+      <btn class="btn btn-primary" href="#">Click here for more info</btn>
+      </a>
+            
+      <a href="#" class="list-group-item">
+      <h4 class="list-group-item-heading">Employment<span class="badge" style="float:right;">2</h4>
+      <p class="list-group-item-text">Central Government <span class="badge">1</span></p>
+      <p class="list-group-item-text">State Government <span class="badge">1</span></p><br>
+      <btn class="btn btn-primary" href="#">Click here for more info</btn>
+      </a>
+
+      <a href="#" class="list-group-item">
+      <h4 class="list-group-item-heading">Agriculture <span class="badge" style="float:right;">1</span></h4>
+      <p class="list-group-item-text">State Government <span class="badge">1</span></p><br>
+      <btn class="btn btn-primary" href="#">Click here for more info</btn>
+      </a>
+
+      <a href="#" class="list-group-item">
+      <h4 class="list-group-item-heading">Pension Related <span style="float:right;" class="badge">3</span> </h4>
+      <p class="list-group-item-text">Central Government <span class="badge">2</span></p>
+      <p class="list-group-item-text">State Government <span class="badge">1</span></p><br>
+      <btn class="btn btn-primary" href="#">Click here for more info</btn>
+      </a>
+
+</ul>
+</div>
+
 
 </body>
 </html>

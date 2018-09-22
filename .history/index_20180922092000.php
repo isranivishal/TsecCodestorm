@@ -737,7 +737,7 @@ function filterFunction() {
                             <h4 class="modal-title" id="myModalLabel">Login form</h4> 
                         </div> 
                         <div class="modal-body"> 
-                            <form action="login.php" method="POST"> 
+                            <form action="login_submit.php" method="POST"> 
                                 <div class="form-group"> 
                                     <label for="email">Email Id</label> 
                                     <div class="input-group pb-modalreglog-input-group"> 
@@ -855,7 +855,7 @@ function filterFunction() {
                             <h4 class="modal-title" id="myModalLabel">Registration form</h4> 
                         </div> 
                         <div class="modal-body"> 
-                            <form action="registration.php" method="POST" class="pb-modalreglog-form-reg" name="validate" onsubmit="validateForm()"> 
+                            <form action="student_details.php" method="POST" class="pb-modalreglog-form-reg" name="validate" onsubmit="validateForm()"> 
                                 <div class="form-group"> 
                                     <div id="pb-modalreglog-progressbar"></div> 
                                 </div> 
@@ -921,6 +921,11 @@ function filterFunction() {
                                     </div> 
                                 </div>
  
+                               <!-- <select class="selectpicker countrypicker" 
+                                        data-live-search="true" 
+                                        data-default="United States" 
+                                        data-flag="true"> 
+                                </select> --> 
                                 <div class="form-group" style="float: left"> 
                                         <label for="country">State</label> 
                                         <div class="input-group pb-modalreglog-input-group"> 
@@ -982,21 +987,21 @@ function filterFunction() {
                                             <label for="firstname">Age</label> 
                                             <div class="input-group pb-modalreglog-input-group"> 
                                                 <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span> 
-                                                <input type="text" class="form-control" id="PhoneNo" name="age" placeholder="Age." required > 
+                                                <input type="text" class="form-control" id="PhoneNo" name="PhoneNo" placeholder="Age." required > 
                                             </div> 
                                         </div> 
                                         <div class="form-group"> 
                                             <label for="firstname">Income</label> 
                                             <div class="input-group pb-modalreglog-input-group"> 
                                                 <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span> 
-                                                <input type="text" class="form-control" id="PhoneNo" name="Income" placeholder="Income." required > 
+                                                <input type="text" class="form-control" id="PhoneNo" name="PhoneNo" placeholder="Income." required > 
                                             </div> 
                                         </div> 
                                         <div class="form-group"> 
                                             <label for="firstname">Occupation</label> 
                                             <div class="input-group pb-modalreglog-input-group"> 
                                                 <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span> 
-                                                <input type="text" class="form-control" id="PhoneNo" name="Occupation" placeholder="Occupation." required > 
+                                                <input type="text" class="form-control" id="PhoneNo" name="PhoneNo" placeholder="Occupation." required > 
                                             </div> 
                                         </div> 
                                       </div> 

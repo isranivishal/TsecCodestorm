@@ -1,3 +1,14 @@
+<!--<?php 
+    include('login_submit.php');  
+    include('student_details.php');    
+?> 
+<?php   
+  session_start(); 
+  if(isset($_SESSION['User_Email'])){ 
+    header("location:index.php"); 
+  } 
+?> 
+-->
 <!DOCTYPE html> 
 <html lang="en"> 
 <head> 
@@ -424,41 +435,41 @@ document.getElementById("mySidenav").style.width = "0";
     <div class="carousel-inner"> 
         <div class="item active"> 
             <!-- Set the first background image using inline CSS below. --> 
-            <img src="img/education.jpg" style="width:100%; height:450px;"> 
+            <img src="education.jpg" style="width:100%; height:450px;"> 
              
         </div> 
         <div class="item"> 
             <!-- Set the second background image using inline CSS below. --> 
-            <img src="img/agriculture.jpg" style="width:100%; height:450px;"> 
+            <img src="agriculture.jpg" style="width:100%; height:450px;"> 
         </div> 
         <div class="item"> 
             <!-- Set the third background image using inline CSS below. --> 
-            <img src="img/busi.jpg" style="width:100%; height:450px;"> 
-        </div> 
- 
-        <div class="item"> 
-            <!-- Set the third background image using inline CSS below. --> 
-            <img src="img/health.jpg" style="width:100%; height:450px;"> 
+            <img src="busi.jpg" style="width:100%; height:450px;"> 
         </div> 
  
         <div class="item"> 
             <!-- Set the third background image using inline CSS below. --> 
-            <img src="img/elec.jpg" style="width:100%; height:450px;"> 
+            <img src="health.jpg" style="width:100%; height:450px;"> 
+        </div> 
+ 
+        <div class="item"> 
+            <!-- Set the third background image using inline CSS below. --> 
+            <img src="elec.jpg" style="width:100%; height:450px;"> 
         </div> 
  
         <div class="item"> 
                 <!-- Set the third background image using inline CSS below. --> 
-                <img src="img/job.jpg" style="width:100%; height:450px;"> 
+                <img src="job.jpg" style="width:100%; height:450px;"> 
         </div> 
  
         <div class="item"> 
                 <!-- Set the third background image using inline CSS below. --> 
-                <img src="img/money.jpg" style="width:100%; height:450px;"> 
+                <img src="money.jpg" style="width:100%; height:450px;"> 
         </div> 
  
         <div class="item"> 
                 <!-- Set the third background image using inline CSS below. --> 
-                <img src="img/pension.png" style="width:100%; height:450px;"> 
+                <img src="pension.png" style="width:100%; height:450px;"> 
         </div> 
  
         
@@ -604,7 +615,7 @@ function filterFunction() {
     <div class="col-md-4"> 
             <div class="thumbnail"> 
             <a href="california.jpg"> 
-                <img src="img/edu.jpg" alt="California" style="width:100%;height:135px;"> 
+                <img src="edu.jpg" alt="California" style="width:100%;height:135px;"> 
                 <div class="caption"> 
                 <a href="california.html" style="color:blue; font-size:18px">Education</a> 
                 </div> 
@@ -615,7 +626,7 @@ function filterFunction() {
     <div class="col-md-4"> 
           <div class="thumbnail"> 
            <a href="cambridge.jpg"> 
-           <img src="img/agri.jpg" alt="Cambridge" style="width:100%;height:135px;"> 
+           <img src="agri.jpg" alt="Cambridge" style="width:100%;height:135px;"> 
            <div class="caption"> 
            <a href="cambridge.html" style="color:blue; font-size:18px">Agriculture</a> 
            </div> 
@@ -626,7 +637,7 @@ function filterFunction() {
       <div class="col-md-4"> 
             <div class="thumbnail"> 
             <a href="chicago.jpg"> 
-                <img src="img/business.jpg" alt="Chicago" style="width:100%;height:135px;"> 
+                <img src="business.jpg" alt="Chicago" style="width:100%;height:135px;"> 
                 <div class="caption"> 
                 <a href="chicago.html" style="color:blue; font-size:18px">Business</a> 
                 </div> 
@@ -638,7 +649,7 @@ function filterFunction() {
         <div class="col-md-4"> 
                 <div class="thumbnail"> 
                 <a href="harvard.jpg"> 
-                    <img src="img/elect.jpg" alt="Harvard" style="width:100%;height:135px;"> 
+                    <img src="elect.jpg" alt="Harvard" style="width:100%;height:135px;"> 
                     <div class="caption"> 
                     <a href="harvard.html" style="color:blue; font-size:18px">Electricity</a> 
                     </div> 
@@ -649,7 +660,7 @@ function filterFunction() {
             <div class="col-md-4"> 
                     <div class="thumbnail"> 
                     <a href="imperiallondon.jpg"> 
-                        <img src="img/heal.jpg" alt="Imperial College of London" style="width:100%;height:135px;"> 
+                        <img src="heal.jpg" alt="Imperial College of London" style="width:100%;height:135px;"> 
                         <div class="caption"> 
                         <a href="imperiallondon.html" style="color:blue; font-size:18px">Health</a> 
                         </div> 
@@ -660,7 +671,7 @@ function filterFunction() {
                 <div class="col-md-4"> 
                         <div class="thumbnail"> 
                         <a href="mit.jpg"> 
-                            <img src="img/mon.jpg" alt="Harvard" style="width:100%;height:135px;"> 
+                            <img src="mon.jpg" alt="Harvard" style="width:100%;height:135px;"> 
                             <div class="caption"> 
                             <a href="mit.html" style="color:blue; font-size:18px">Money</a> 
                             </div> 
@@ -671,7 +682,7 @@ function filterFunction() {
                     <div class="col-md-4"> 
                             <div class="thumbnail"> 
                             <a href="oxford.jpg"> 
-                                <img src="img/pen.jpg" alt="Harvard" style="width:100%;height:135px;"> 
+                                <img src="pen.jpg" alt="Harvard" style="width:100%;height:135px;"> 
                                 <div class="caption"> 
                                 <a href="oxford.jpg" style="color:blue; font-size:18px">Retirement and Pension</a> 
                                 </div> 
@@ -682,7 +693,7 @@ function filterFunction() {
                         <div class="col-md-4"> 
                                 <div class="thumbnail"> 
                                 <a href="princeton.png"> 
-                                    <img src="img/jobb.jpg" alt="Harvard" style="width:100%;height:135px;"> 
+                                    <img src="jobb.jpg" alt="Harvard" style="width:100%;height:135px;"> 
                                     <div class="caption"> 
                                     <a href="princeton.png" style="color:blue; font-size:18px">Job</a> 
                                     </div> 
@@ -693,7 +704,7 @@ function filterFunction() {
                             <div class="col-md-4"> 
                                     <div class="thumbnail"> 
                                     <a href="stanford.jpg"> 
-                                        <img src="img/defence.jpg" alt="Harvard" style="width:100%;height:135px;"> 
+                                        <img src="defence.jpg" alt="Harvard" style="width:100%;height:135px;"> 
                                         <div class="caption"> 
                                         <a href="stanford.jpg" style="color:blue; font-size:18px">Defence</a> 
                                         </div> 
@@ -737,7 +748,7 @@ function filterFunction() {
                             <h4 class="modal-title" id="myModalLabel">Login form</h4> 
                         </div> 
                         <div class="modal-body"> 
-                            <form action="login.php" method="POST"> 
+                            <form action="login_submit.php" method="POST"> 
                                 <div class="form-group"> 
                                     <label for="email">Email Id</label> 
                                     <div class="input-group pb-modalreglog-input-group"> 
@@ -763,7 +774,7 @@ function filterFunction() {
                             <div style="float:right; font-size: 100%; top:10px;"> 
                              
                                             Don't have an account? 
-                                        <a href="index.php" onClick="$('#myModal').hide(); $('#myModal2').show();"  data-toggle="modal" data-target="#myModal2"> 
+                                        <a href="index.html" onClick="$('#myModal').hide(); $('#myModal2').show();"  data-toggle="modal" data-target="#myModal2"> 
                                             Sign Up Here 
                                         </a> 
                              
@@ -855,7 +866,7 @@ function filterFunction() {
                             <h4 class="modal-title" id="myModalLabel">Registration form</h4> 
                         </div> 
                         <div class="modal-body"> 
-                            <form action="registration.php" method="POST" class="pb-modalreglog-form-reg" name="validate" onsubmit="validateForm()"> 
+                            <form action="student_details.php" method="POST" class="pb-modalreglog-form-reg" name="validate" onsubmit="validateForm()"> 
                                 <div class="form-group"> 
                                     <div id="pb-modalreglog-progressbar"></div> 
                                 </div> 
@@ -921,6 +932,11 @@ function filterFunction() {
                                     </div> 
                                 </div>
  
+                               <!-- <select class="selectpicker countrypicker" 
+                                        data-live-search="true" 
+                                        data-default="United States" 
+                                        data-flag="true"> 
+                                </select> --> 
                                 <div class="form-group" style="float: left"> 
                                         <label for="country">State</label> 
                                         <div class="input-group pb-modalreglog-input-group"> 
@@ -982,21 +998,21 @@ function filterFunction() {
                                             <label for="firstname">Age</label> 
                                             <div class="input-group pb-modalreglog-input-group"> 
                                                 <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span> 
-                                                <input type="text" class="form-control" id="PhoneNo" name="age" placeholder="Age." required > 
+                                                <input type="text" class="form-control" id="PhoneNo" name="PhoneNo" placeholder="Age." required > 
                                             </div> 
                                         </div> 
                                         <div class="form-group"> 
                                             <label for="firstname">Income</label> 
                                             <div class="input-group pb-modalreglog-input-group"> 
                                                 <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span> 
-                                                <input type="text" class="form-control" id="PhoneNo" name="Income" placeholder="Income." required > 
+                                                <input type="text" class="form-control" id="PhoneNo" name="PhoneNo" placeholder="Income." required > 
                                             </div> 
                                         </div> 
                                         <div class="form-group"> 
                                             <label for="firstname">Occupation</label> 
                                             <div class="input-group pb-modalreglog-input-group"> 
                                                 <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span> 
-                                                <input type="text" class="form-control" id="PhoneNo" name="Occupation" placeholder="Occupation." required > 
+                                                <input type="text" class="form-control" id="PhoneNo" name="PhoneNo" placeholder="Occupation." required > 
                                             </div> 
                                         </div> 
                                       </div> 

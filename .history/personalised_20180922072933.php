@@ -325,12 +325,12 @@ function closeNav() {
 <!-- side bar ends--> 
 </div> 
 <span style="font-size:30px;cursor:pointer;color:white; padding-left:3px; float:left;" onclick="openNav()">&#9776;</span> 
-    <a class="navbar-brand" href="index.php" style="padding-left:50px;color:white;">Scheme Portal</a> 
+    <a class="navbar-brand" href="index.blade.php" style="padding-left:50px;color:white;">Scheme Portal</a> 
     </div> 
      
       <ul class="nav navbar-nav navbar-right"> 
  
-        <li class="active"><a href="index.php">Home</a></li> 
+        <li class="active"><a href="index.blade.php">Home</a></li> 
         <li><a href="#">Services</a></li> 
         <li><a href="#">About Us</a></li>   
         <li><a href="#" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-user"></span> Profile</a></li> 
@@ -393,14 +393,22 @@ document.getElementById("mySidenav").style.width = "0";
 <!-- side bar ends--> 
 
 
-<div class="col-md-6">
-<h3 align="center">Eligible Schemes</h3>
-<div class="alert alert-dismissible alert-success">
-  <a href="#" class="alert-heading">Name</a>
-  <b><p class="mb-0" style="color:black;">Description</p></b>
-  
-</div>
+
+<div class="jumbotron">
+  <h1 class="display-2">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
 </div>
 
+</div>
+
+
+
+
 </body>
-</html>
+ 
+ 

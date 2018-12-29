@@ -1,6 +1,6 @@
 <?php
 	
-$con =mysqli_connect("localhost","root","qweasdzxc","tseccodestorm") or die(mysqli_error($con));
+$con =mysqli_connect("localhost","root","mysql","tseccodestorm") or die(mysqli_error($con));
 session_start();
 if(isset($_SESSION["logged_in"])){
 	$User_id= $_SESSION["User_Email"];
